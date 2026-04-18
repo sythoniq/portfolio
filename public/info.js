@@ -21,23 +21,23 @@ const projects = [{
 const skills = [{
   id: 1,
   name: "ReactJS",
-  imgUrl: ""
+  imgUrl: "/svgs/reactjs.svg"
 },{
   id: 2,
   name: "NodeJS",
-  imgUrl: ""
+  imgUrl: "/svgs/nodejs.svg"
 },{
   id: 3,
   name: "PrismaORM",
-  imgUrl: ""
+  imgUrl: "/svgs/prisma-orm.svg"
 },{ 
   id: 4,
   name: "PostgreSQL", 
-  imgUrl: ""
+  imgUrl: "/svgs/postgresql.svg"
 },{
   id: 5,
   name: "Git",
-  imgUrl: ""
+  imgUrl: "/svgs/git.svg"
 }]
 
 export { projects, skills };

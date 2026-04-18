@@ -1,0 +1,22 @@
+@import 'compstyles/nav.css';
+@import 'compstyles/hero.css';
+@import 'compstyles/skills.css';
+@import 'compstyles/project.css';
+
+body {
+  background-color: black;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-card > img, .project-links > p, .contact-list > a > img {
+  height: 4rem;
+  width: 4rem;
+}
+
+

@@ -1,0 +1,17 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  padding: 7.5rem;
+  color: white;
+  width: 600px;
+}
+
+.hero-section > h3 {
+  font-size: 2em;
+  font-family: monospace;
+}
+
+.hero-section > p {
+  font-size: 1.25em;
+  word-spacing: 5px;
+}

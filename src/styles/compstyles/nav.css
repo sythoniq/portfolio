@@ -1,0 +1,29 @@
+.nav-bar {
+  position: sticky;
+  top: 2px;
+  display: flex;
+  padding: .5em 1.2em;
+  gap: 1.2em;
+  background-color: rgba(120, 120, 120, 0.6);
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar > button {
+  background: none;
+  border: none;
+  border-radius: 12px;
+  padding: .5em 1.2em;
+  font-size: 1.2em;
+  font-family: monospace;
+}
+
+.nav-bar > button:hover {
+  background-color: rgba(120, 120, 120, 0.3);
+}
+
+.nav-bar > button > a {
+  text-decoration: none;
+  color: black;
+}
