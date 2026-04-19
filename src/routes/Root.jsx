@@ -14,9 +14,9 @@ return (
 <section className="hero-section" id="home">
 <h3>Built On Curiosity, Refined By Doing</h3>
 <p>Hi I am Abdikadir. A fullstack engineer based in Kenya, I
-specialize in building web application. But still eager to learn.</p>
+specialize in building web application.</p>
 </section>
-<section className="projects-section">
+<section className="projects-section" id="projects">
 <h1 style={{color: "white"}}>Projects</h1>
 <div className="projects-list">
 {projects.map((project) => {
@@ -35,13 +35,13 @@ return (
 ) 
 })}
 </div>
+</section>
 <div className="contact-list">
 <p>Interested in working with me? Feel free to reach out.</p>  
-<a href="https://github.com/sythoniq"><img src="/svgs/github.svg" /></a>
-<a href="https://linkedin.com"><img src="/svgs/linkedin.svg" /></a>
-<a href="https://x.com"><img src="/svgs/x.svg"/></a>
+<a href="https://github.com/sythoniq" target="_blank" rel="noopener noreferrer"><img src="/svgs/github.svg" /></a>
+<a href="https://www.linkedin.com/in/abdikadir-warsame-0034493a5/" target="_blank" rel="noopener noreferrer"><img src="/svgs/linkedin.svg" /></a>
+<a href="https://x.com/sythe_dv" target="_blank" rel="noopener noreferrer"><img src="/svgs/x.svg"/></a>
 </div>
-</section>
 </main>
 )
 }
