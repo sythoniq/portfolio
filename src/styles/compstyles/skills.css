@@ -1,0 +1,42 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10rem 1rem;
+  font-family: monospace;
+  width: calc(100vw - 20%);
+}
+
+.tech-list {
+  width: calc(100vw - 40%);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.2em;
+  justify-content: center;
+  padding: 1.2em;
+}
+
+.skill-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2em;
+  padding: .2em;
+  font-size: 1.5em;
+  background-color: rgba(120, 120, 120, .7);
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  gap: 1.5rem;
+  background-color: rgba(120, 120, 120, .7);
+  border-radius: 12px;
+  justify-self: end;
+}

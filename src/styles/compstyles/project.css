@@ -1,7 +1,50 @@
 .projects-section {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 2rem;
+  width: calc(100vw - 20%);
+}
+
+.projects-head {
+  width: calc(100vw - 20%);
+  font-family: monospace;
+  color: white;
 }
 
 .project-card {
-  background-color: white;
+  background-color: rgba(120, 120, 120, 0.5);
+  font-size: 1.2rem;
+  color: white;
+  padding: 1.2em;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .75em;
+  font-family: monospace;
 }
+
+.project-description {
+  height: calc(100vh - 50%);
+}
+
+.project-links {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.project-links > p {
+  height: 3rem;
+  width: 3rem;
+}
+

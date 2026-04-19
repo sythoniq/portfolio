@@ -12,9 +12,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 12rem;
 }
 
-.skill-card > img, .project-links > p, .contact-list > a > img {
+.skill-card > img, .contact-list > a > img {
   height: 4rem;
   width: 4rem;
 }
