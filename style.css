@@ -9,7 +9,7 @@ p{margin:0;}
 
 /* ------ Header ------- */
 .page-header {
-	padding: 1em 1.2em;
+	padding: 1em 2em;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
@@ -25,21 +25,57 @@ p{margin:0;}
 	display: flex;
 	gap: 1.2em;
 	font-size: 1rem;
+	font-weight: 200;
+}
+
+.nav-list a:hover {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
 /* ----------- Main ----------- */
 
 #main {
-
+	padding: 1.5em;
 }
 
 /* --- _Hero_ ---- */
 .hero {
+	padding-top: 1.5em;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
 
+.hero h1 {
+	font-size: 1.2rem;
+	margin-bottom: .5em;
+}
+
+.role {
+	font-size: 1rem;
+	font-weight: 200;
+	margin-bottom: 1em;
+}
+
+.hero-text {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 1.5em;
 }
 
 .hero-links {
+	display: flex;
+	gap: 1.5em;
+	font-size: 1em;
+	font-weight: 600;
+}
 
+.hero-links a {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	padding-bottom: .2em;
+}
+
+.hero-links a:hover {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+	color: rgba(0, 0, 200, 0.2);
 }
 
 /* --- _About_ ---- */
