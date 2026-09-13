@@ -40,7 +40,7 @@ p{margin:0;}
 
 /* --- _Hero_ ---- */
 .hero {
-	padding-top: 1.5em;
+	padding-top: 5em;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -75,39 +75,178 @@ p{margin:0;}
 
 .hero-links a:hover {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.9);
-	color: rgba(0, 0, 200, 0.2);
+	color: rgba(0, 0, 200, 0.8);
 }
 
 /* --- _About_ ---- */
 .about {
-
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: .5em;
 }
 
-.about-text {
+.about h2 {
+	font-size: 1.3em;
+	font-weight: 600;
+	margin-bottom: 1.2em;
+}
 
+.about p {
+	font-weight: 450;
+	margin-bottom: 1.2em;	
+}
+
+.about p:last-child {
+	margin-bottom: 0;
 }
 
 /* ---- O_o Projects O_o ---- */
 .projects {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
 
+.projects h2 {
+	margin-bottom: 1.5em;
+	font-size: 1.3rem;
+	font-weight: 600;
 }
 
 .project-list {
-
+	padding: 1.5em 0;
 }
 
 .project-item {
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	display: flex;
+	padding: 1em 0;
+	gap: 1.5em;
+}
 
+.project-item h3 {
+	font-size: 1.05rem;
+}
+
+.project-item h3 a {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.project-item h3:hover a:hover {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 .project-meta {
-
+	font-size: .85rem;
+	font-weight: 50;
+	margin-top: .5em;
 }
 
 .project-body {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
+}
 
+.project-body p {
+	font-size: 1.05rem;
+	color: rgba(0, 0, 0, 0.8);
 }
 
 .project-links {
+	display: flex;
+	gap: 1.2em;
+}
 
+.project-links a {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.project-links a:hover {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	color: rgba(0, 0, 200, 0.8);
+}
+
+/* --- Experience --- */
+.experience {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: 1rem;
+}
+
+.experience h2 {
+	padding-bottom: 1.2em;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.job {
+	padding: 1.2em 0;
+	display: flex;
+	gap: 10rem;
+}
+
+.job-dates {
+	color: rgba(0, 0, 0, 0.5);
+	font-size: .85rem;
+	width: 15rem;
+}
+
+.job-role {
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.job-desc {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 1.05rem;
+}
+
+/* --- Contact --- */
+.contact {
+
+}
+
+.contact h2 {
+	padding-bottom: 1em;
+}
+
+.reach {
+	color: rgba(0, 0, 0, 0.7);
+	padding-bottom: 1em;
+}
+
+.contact-links {
+	display: flex;
+	gap: 1.2em;
+}
+
+.text-link {
+	font-size: 1.05rem;
+	color: rgba(0, 0, 0, 0.7);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.text-link:hover {
+	color: rgba(0, 0, 200, .8);
+	border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+/* -- Footer -- */
+footer {
+	padding: 1.5em;
+}
+
+.footer-inner {
+	display: flex;
+	justify-content: space-between;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: .85rem;
+}
+
+.footer-links {
+	display: flex;
+	gap: 1.2rem;
+}
+
+.footer-links a:hover {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
