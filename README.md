@@ -1,6 +1,6 @@
 # Portfolio
 
-Live Link
+## Live Link
 [Visit](https://sythoniq.github.io/portfolio/)
 
 This is but a simple HTML5 + CSS page that doesn't chase any unnecessary styling and beautification.
