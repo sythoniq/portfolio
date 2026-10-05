@@ -1,0 +1,25 @@
+.contact h2 {
+	padding-bottom: 1em;
+	color: whitesmoke;
+}
+
+.reach {
+	color: white;
+	padding-bottom: 1em;
+}
+
+.contactLinks {
+	display: flex;
+	gap: 1.2em;
+}
+
+.textLink {
+	text-decoration: none;
+	font-size: 1.05rem;
+	color: whitesmoke;
+	border-bottom: 1px solid rgba(200, 200, 200, 0.6);
+}
+
+.textLink:hover {
+	border-bottom: 1px solid rgba(200, 200, 200, 0.8);
+}

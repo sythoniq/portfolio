@@ -1,0 +1,28 @@
+.footer {
+	padding: 1.5em;
+}
+
+.footerInner {
+	display: flex;
+	justify-content: space-between;
+	color: whitesmoke;
+	font-size: .85rem;
+}
+
+.footerLinks {
+	display: flex;
+	gap: 1.2rem;
+}
+
+.footerLinks a {
+	text-decoration: none;
+	color: inherit
+}
+
+.footerLinks a:hover {
+	border-bottom: 1px solid rgba(200, 200, 200, 0.6);
+}
+
+.footerLinks a:visited {
+	color: inherit;
+}

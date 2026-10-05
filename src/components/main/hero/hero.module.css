@@ -1,0 +1,35 @@
+.hero {
+	padding-top: 3.5em;	
+	display: flex;
+	flex-direction: column;
+	gap: 1.2em;
+	color: whitesmoke;
+	border-bottom: 1px solid rgba(200, 200, 200, 0.6);
+}
+
+.role {
+	font-weight: 200;
+}
+
+.heroText {
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.heroLinks {
+	display: flex;
+	gap: 1em;
+}
+
+.heroLinks ul a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.heroLinks ul a:visited {
+	color: inherit;
+}
+
+.heroLinks ul a:hover {
+	border-bottom: 1px solid rgba(200, 200, 200, 0.6);
+}

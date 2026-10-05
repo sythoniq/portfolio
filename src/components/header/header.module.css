@@ -1,0 +1,32 @@
+.header {
+	display: flex;
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5em 1.2em;
+	flex-wrap: wrap;
+}
+
+.header a {
+	font-size: 1.2em;
+	text-decoration: none;
+	color: white;
+}
+
+.navList {
+	display: flex;
+	gap: .85em;
+	color: white;
+	font-size: .85rem;
+	font-weight: 200;
+	flex-wrap: wrap;
+}
+
+.navList li {
+	list-style: none;
+	cursor: pointer;
+}
+
+.navList li a:hover {
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+}

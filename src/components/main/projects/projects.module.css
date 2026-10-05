@@ -1,0 +1,9 @@
+.projects {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2em;
+}
+
+.projects h2 {
+	color: white;
+}

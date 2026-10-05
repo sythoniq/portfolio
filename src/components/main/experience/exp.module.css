@@ -1,0 +1,33 @@
+.exp {
+	color: whitesmoke;
+	border-bottom: 1px solid rgba(200, 200, 200, 0.6);
+}
+
+.expJob {
+	display: grid;
+	grid-template: auto / repeat(auto-fit, minmax(150px, 1fr));
+	column-gap: .5rem;
+	padding-bottom: .5em;
+	align-items: center;
+}
+
+.expJob div {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2em;
+}
+
+.jobDate {
+	font-weight: 200;
+	font-size: .85rem;
+}
+
+.jobRole {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.jobDesc {
+	font-size: .85rem;
+	font-weight: 400;
+}

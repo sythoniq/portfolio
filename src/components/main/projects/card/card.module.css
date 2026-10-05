@@ -1,0 +1,55 @@
+.projectCard {
+	border-top: 1px solid rgba(200, 200, 200, 0.6);
+	padding: 1em 0;
+	color: whitesmoke;
+	display: grid;
+	grid-template: auto / repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.projectHead {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: .2em;
+}
+
+.projectHead h3 a {
+	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.projectHead h3 a:hover {
+	border-bottom: 1px solid rgba(200, 200, 200, 0.9);
+}
+
+.projectHead p {
+	font-size: .85rem;
+	font-weight: 300;
+}
+
+.projectCard a {
+	text-decoration: none;
+	color: white;
+}
+
+.projectBody {
+	display: flex;
+	flex-direction: column;
+	gap: .5em;
+}
+
+.projectLinks {
+	display: flex;
+	gap: .5em;
+}
+
+.projectLinks li {
+	list-style: none;
+}
+
+.projectLinks a:visited {
+	color: whitesmoke;
+}
+
+.projectLinks a:hover {
+	border-bottom: 1px solid rgba(200, 200, 200, 0.6);
+}
