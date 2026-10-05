@@ -13,14 +13,6 @@
 	gap: .2em;
 }
 
-.projectHead h3 a {
-	border-bottom: 1px solid rgba(200, 200, 200, 0.5);
-}
-
-.projectHead h3 a:hover {
-	border-bottom: 1px solid rgba(200, 200, 200, 0.9);
-}
-
 .projectHead p {
 	font-size: .85rem;
 	font-weight: 300;
