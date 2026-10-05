@@ -5,7 +5,7 @@ export default function Hero() {
 		<section id="top" className={styles.hero}>
 			<h1>Abdikadir Warsame</h1>
 			<p className={styles.role}>Full Stack Developer</p>
-			<p className={styles.heroText}>I build web applications and spend lots of time learning new things within the world of tech. Currently looking for internship and attachment opportunites.</p>
+			<p className={styles.heroText}>I build web applications and spend lots of time learning new things within the world of tech. Currently looking for internship and attachment opportunities.</p>
 			<li className={styles.heroLinks}>
 				<ul><a href="github.com/sythoniq" target="_blank" rel="noreferrer">Github</a></ul>
 				<ul><a href="linkedin.com/in/abdikadir-warsame" target="_blank" rel="noreferrer">LinkedIn</a></ul>
