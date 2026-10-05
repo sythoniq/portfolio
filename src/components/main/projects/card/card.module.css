@@ -34,7 +34,11 @@
 .projectBody {
 	display: flex;
 	flex-direction: column;
-	gap: .5em;
+	gap: .85em;
+}
+
+.projectBody p {
+	font-weight: 300;
 }
 
 .projectLinks {
@@ -44,6 +48,11 @@
 
 .projectLinks li {
 	list-style: none;
+	font-weight: 300;
+}
+
+.projectLinks li a {
+	border-bottom: 1px solid rgba(200, 200, 200, 0.3);
 }
 
 .projectLinks a:visited {
